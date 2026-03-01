@@ -28,11 +28,6 @@ class Square extends Rectangle {
   }
 }
 
-// Attach to window for Cypress tests if in a browser environment
-if (typeof window !== 'undefined') {
-  window.Rectangle = Rectangle;
-  window.Square = Square;
-}
 
 // Do not change the code below this line
 window.Rectangle = Rectangle;
